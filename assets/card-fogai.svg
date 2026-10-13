@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 410 234" width="410" height="234" role="img" aria-labelledby="t">
+  <title id="t">FogAI — Hybrid rule + risk-scoring engine that keeps safety-critical IIoT decisions on the fog node and keeps working through cloud outages. ~75% decided locally · ~3 ms vs ~120 ms (sim). Stack: Python, NumPy, Edge AI, IEEE paper.</title>
+  <style>
+    .s { font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .m { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .led { animation: pulse 2.8s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .35; } }
+    @media (prefers-reduced-motion: reduce) { .led { animation: none; } }
+  </style>
+  <defs>
+    <radialGradient id="g" cx="0" cy="0" r="1" gradientTransform="translate(28 28) scale(260 180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3fe0ee" stop-opacity=".09"/><stop offset="1" stop-color="#3fe0ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="399" height="223" rx="12" fill="#07090c" stroke="#1a222d"/>
+  <rect x=".5" y=".5" width="399" height="223" rx="12" fill="url(#g)"/>
+  <circle cx="28" cy="28" r="7" fill="#3fe0ee" opacity=".12" class="led"/>
+  <circle cx="28" cy="28" r="3.5" fill="#3fe0ee"/>
+  <text x="42" y="32" font-size="10.5" fill="#5b6878" letter-spacing=".14em" class="m">NODE 01 · RESEARCH</text>
+  <text x="376" y="32" font-size="11" fill="#5b6878" text-anchor="end" class="m">/FogAi</text>
+  <text x="24" y="70" font-size="22" font-weight="600" fill="#e8edf2" class="s">FogAI</text>
+  <text x="24" y="98" font-size="13.5" fill="#8b97a5" class="s">Hybrid rule + risk-scoring engine that keeps</text><text x="24" y="118" font-size="13.5" fill="#8b97a5" class="s">safety-critical IIoT decisions on the fog node</text><text x="24" y="138" font-size="13.5" fill="#8b97a5" class="s">and keeps working through cloud outages.</text>
+  <text x="24" y="168" font-size="11.5" fill="#3fe0ee" class="m">~75% decided locally · ~3 ms vs ~120 ms (sim)</text>
+  <path d="M24 176.5H376" stroke="#141b23"/>
+  <rect x="24" y="186" width="53.8" height="20" rx="4" fill="#0c1117" stroke="#222c38"/><text x="32" y="200" font-size="10.5" fill="#8b97a5" textLength="37.8" lengthAdjust="spacingAndGlyphs" class="m">Python</text><rect x="83.8" y="186" width="47.5" height="20" rx="4" fill="#0c1117" stroke="#222c38"/><text x="91.8" y="200" font-size="10.5" fill="#8b97a5" textLength="31.5" lengthAdjust="spacingAndGlyphs" class="m">NumPy</text><rect x="137.3" y="186" width="60.1" height="20" rx="4" fill="#0c1117" stroke="#222c38"/><text x="145.3" y="200" font-size="10.5" fill="#8b97a5" textLength="44.1" lengthAdjust="spacingAndGlyphs" class="m">Edge AI</text><rect x="203.4" y="186" width="79.0" height="20" rx="4" fill="#0c1117" stroke="#222c38"/><text x="211.4" y="200" font-size="10.5" fill="#8b97a5" textLength="63.0" lengthAdjust="spacingAndGlyphs" class="m">IEEE paper</text>
+</svg>

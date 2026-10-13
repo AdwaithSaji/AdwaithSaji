@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-labelledby="t">
+  <title id="t">End of profile</title>
+  <style>
+    text { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #5b6878; letter-spacing: .16em; }
+    @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+  </style>
+  <defs>
+    <linearGradient id="l" x1="64" x2="1100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3fe0ee" stop-opacity="0"/><stop offset="1" stop-color="#3fe0ee" stop-opacity=".45"/>
+    </linearGradient>
+    <path id="p" d="M64 40H1100"/>
+  </defs>
+  <use href="#p" stroke="url(#l)" stroke-width="1"/>
+  <g fill="#07090c" stroke="#2f7f88" stroke-width="1.2">
+    <circle cx="340" cy="40" r="3"/>
+    <circle cx="620" cy="40" r="3"/>
+    <circle cx="880" cy="40" r="3"/>
+  </g>
+  <g transform="translate(1118 40)">
+    <polygon points="0,-14 12.1,-7 12.1,7 0,14 -12.1,7 -12.1,-7" fill="#0a171b" stroke="#3fe0ee" stroke-width="1.2"/>
+    <circle r="2.5" fill="#3fe0ee"/>
+  </g>
+  <circle class="motion" r="2.4" fill="#3fe0ee" opacity="0">
+    <animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.55;1" calcMode="linear"><mpath href="#p"/></animateMotion>
+    <animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.04;.53;.56;1"/>
+  </circle>
+  <text x="64" y="76">ADWAITH SAJIKUMAR</text>
+  <text x="1136" y="76" text-anchor="end">KERALA, INDIA</text>
+</svg>

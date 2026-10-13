@@ -1,0 +1,51 @@
+name: telemetry
+
+# Regenerates the "Signal trace" activity panel and publishes it to the
+# `output` branch, which README.md references by raw URL.
+
+on:
+  schedule:
+    - cron: "23 2 * * *"   # daily, off the top of the hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/telemetry.py
+      - .github/workflows/telemetry.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telemetry
+  cancel-in-progress: true
+
+jobs:
+  render:
+    if: github.repository_owner == 'AdwaithSaji'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write   # push to the output branch only
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Render signal trace
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/telemetry.py --user "${{ github.repository_owner }}" --out dist/telemetry.svg
+
+      - name: Publish to output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          cd dist
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add telemetry.svg
+          git commit -q -m "telemetry: $(date -u +%F)"
+          git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO}.git" output
