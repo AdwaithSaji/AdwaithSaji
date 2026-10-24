@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t">
+  <title id="t">Weekly GitHub contributions for the last 12 months: 149 total, 14 active weeks, peak 68 in one week, 27 public repositories. Updated 2026-10-24.</title>
+  <style>
+    text { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 11px; fill: #5b6878; letter-spacing: .06em; }
+    .trace { stroke-dasharray: 1000; stroke-dashoffset: 0; animation: draw 3.2s cubic-bezier(.4,0,.2,1) both; }
+    .fill { animation: fade 3.2s ease-out both; }
+    .head { animation: beat 2.4s ease-in-out infinite; }
+    @keyframes draw { from { stroke-dashoffset: 1000; } }
+    @keyframes fade { from { opacity: 0; } 60% { opacity: 0; } }
+    @keyframes beat { 50% { opacity: .2; } }
+    @media (prefers-reduced-motion: reduce) { .trace, .fill, .head { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="a" x1="0" y1="92" x2="0" y2="212" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3fe0ee" stop-opacity=".22"/><stop offset="1" stop-color="#3fe0ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="1199" height="299" rx="14" fill="#07090c" stroke="#1a222d"/>
+  <text x="64" y="52" letter-spacing=".2em"><tspan fill="#3fe0ee">SIGNAL TRACE</tspan>  ·  contributions per week, sqrt scale</text>
+  <text x="1136" y="52" text-anchor="end">updated 2026-10-24</text>
+  <path d="M64 92.0H1136" stroke="#10171f"/><path d="M64 152.0H1136" stroke="#10171f"/><path d="M64 212.0H1136" stroke="#10171f"/>
+  <g><path d="M105.2 212v5" stroke="#26313d"/><text x="105.2" y="232" text-anchor="middle">NOV</text><path d="M208.3 212v5" stroke="#26313d"/><text x="208.3" y="232" text-anchor="middle">DEC</text><path d="M290.8 212v5" stroke="#26313d"/><text x="290.8" y="232" text-anchor="middle">JAN</text><path d="M373.2 212v5" stroke="#26313d"/><text x="373.2" y="232" text-anchor="middle">FEB</text><path d="M455.7 212v5" stroke="#26313d"/><text x="455.7" y="232" text-anchor="middle">MAR</text><path d="M558.8 212v5" stroke="#26313d"/><text x="558.8" y="232" text-anchor="middle">APR</text><path d="M641.2 212v5" stroke="#26313d"/><text x="641.2" y="232" text-anchor="middle">MAY</text><path d="M744.3 212v5" stroke="#26313d"/><text x="744.3" y="232" text-anchor="middle">JUN</text><path d="M826.8 212v5" stroke="#26313d"/><text x="826.8" y="232" text-anchor="middle">JUL</text><path d="M909.2 212v5" stroke="#26313d"/><text x="909.2" y="232" text-anchor="middle">AUG</text><path d="M1012.3 212v5" stroke="#26313d"/><text x="1012.3" y="232" text-anchor="middle">SEP</text><path d="M1094.8 212v5" stroke="#26313d"/><text x="1094.8" y="232" text-anchor="middle">OCT</text></g>
+  <path class="fill" d="M64.0 212.0 L84.6 186.8 L105.2 212.0 L125.8 212.0 L146.5 212.0 L167.1 212.0 L187.7 170.8 L208.3 212.0 L228.9 212.0 L249.5 212.0 L270.2 212.0 L290.8 212.0 L311.4 212.0 L332.0 191.4 L352.6 212.0 L373.2 212.0 L393.8 212.0 L414.5 212.0 L435.1 212.0 L455.7 212.0 L476.3 212.0 L496.9 212.0 L517.5 212.0 L538.2 212.0 L558.8 163.7 L579.4 212.0 L600.0 176.4 L620.6 186.8 L641.2 212.0 L661.8 212.0 L682.5 212.0 L703.1 212.0 L723.7 212.0 L744.3 212.0 L764.9 212.0 L785.5 212.0 L806.2 191.4 L826.8 212.0 L847.4 212.0 L868.0 186.8 L888.6 212.0 L909.2 212.0 L929.8 212.0 L950.5 182.9 L971.1 212.0 L991.7 212.0 L1012.3 145.3 L1032.9 212.0 L1053.5 182.9 L1074.2 191.4 L1094.8 92.0 L1115.4 161.6 L1136.0 212.0 L1136.0 212 L64 212 Z" fill="url(#a)"/>
+  <path class="trace" d="M64.0 212.0 L84.6 186.8 L105.2 212.0 L125.8 212.0 L146.5 212.0 L167.1 212.0 L187.7 170.8 L208.3 212.0 L228.9 212.0 L249.5 212.0 L270.2 212.0 L290.8 212.0 L311.4 212.0 L332.0 191.4 L352.6 212.0 L373.2 212.0 L393.8 212.0 L414.5 212.0 L435.1 212.0 L455.7 212.0 L476.3 212.0 L496.9 212.0 L517.5 212.0 L538.2 212.0 L558.8 163.7 L579.4 212.0 L600.0 176.4 L620.6 186.8 L641.2 212.0 L661.8 212.0 L682.5 212.0 L703.1 212.0 L723.7 212.0 L744.3 212.0 L764.9 212.0 L785.5 212.0 L806.2 191.4 L826.8 212.0 L847.4 212.0 L868.0 186.8 L888.6 212.0 L909.2 212.0 L929.8 212.0 L950.5 182.9 L971.1 212.0 L991.7 212.0 L1012.3 145.3 L1032.9 212.0 L1053.5 182.9 L1074.2 191.4 L1094.8 92.0 L1115.4 161.6 L1136.0 212.0" pathLength="1000" fill="none" stroke="#3fe0ee" stroke-width="1.6" stroke-linejoin="round"/>
+  <circle class="head" cx="1136.0" cy="212.0" r="8" fill="#3fe0ee" opacity=".35"/>
+  <circle cx="1136.0" cy="212.0" r="3" fill="#3fe0ee"/>
+  <path d="M64 244.5H1136" stroke="#141b23"/>
+  <text x="64" y="270"><tspan fill="#e8edf2" font-size="15">149</tspan><tspan dx="10" fill="#5b6878">contributions · 12 mo</tspan></text><text x="332" y="270"><tspan fill="#e8edf2" font-size="15">14/53</tspan><tspan dx="10" fill="#5b6878">active weeks</tspan></text><text x="600" y="270"><tspan fill="#e8edf2" font-size="15">68</tspan><tspan dx="10" fill="#5b6878">peak week</tspan></text><text x="868" y="270"><tspan fill="#e8edf2" font-size="15">27</tspan><tspan dx="10" fill="#5b6878">public repos</tspan></text>
+</svg>
