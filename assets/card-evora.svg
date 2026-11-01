@@ -16,9 +16,10 @@
   <rect x=".5" y=".5" width="399" height="223" rx="12" fill="url(#g)"/>
   <circle cx="28" cy="28" r="7" fill="#3fe0ee" opacity=".12" class="led"/>
   <circle cx="28" cy="28" r="3.5" fill="#3fe0ee"/>
-  <text x="42" y="32" font-size="10.5" fill="#5b6878" letter-spacing=".14em" class="m">NODE 03 · VISION</text>
+  <text x="42" y="32" font-size="10.5" fill="#5b6878" letter-spacing=".14em" class="m">NODE 08 · VISION</text>
   <text x="376" y="32" font-size="11" fill="#5b6878" text-anchor="end" class="m">/febinrenu/EVORA</text>
   <text x="24" y="70" font-size="22" font-weight="600" fill="#e8edf2" class="s">EVORA</text>
+  <rect x="258" y="56" width="28" height="20" rx="3" fill="#0c1117" stroke="#3fe0ee" stroke-opacity=".7" stroke-width="1.3"/><path d="M288 66H296" stroke="#5b6878"/><rect x="298" y="56" width="28" height="20" rx="3" fill="#0c1117" stroke="#3fe0ee" stroke-opacity=".7" stroke-width="1.3"/><path d="M328 66H336" stroke="#5b6878"/><rect x="338" y="56" width="28" height="20" rx="3" fill="#0c1117" stroke="#3fe0ee" stroke-opacity=".7" stroke-width="1.3"/><circle cx="312" cy="66" r="4" fill="none" stroke="#3fe0ee" stroke-width="1.5"/>
   <text x="24" y="98" font-size="13.5" fill="#8b97a5" class="s">Ask plain-English questions of many cameras;</text><text x="24" y="118" font-size="13.5" fill="#8b97a5" class="s">get back the camera, the time and a clip with</text><text x="24" y="138" font-size="13.5" fill="#8b97a5" class="s">the object circled. I planned and bootstrapped it.</text>
   <text x="24" y="168" font-size="11.5" fill="#3fe0ee" class="m">detect → track → re-id → retrieve → answer</text>
   <path d="M24 176.5H376" stroke="#141b23"/>
