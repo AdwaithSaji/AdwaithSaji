@@ -14,8 +14,8 @@ My main research project is **[FogAI](https://github.com/AdwaithSaji/FogAi)**, a
 
 - **Models & vision** — [Parallax](https://github.com/febinrenu/PARALLAX), a team hackathon build: a multimodal medical second opinion where every finding must survive a chain of checks before a doctor sees it. I built the out-of-distribution routing and the verification stages (deletion-test faithfulness, perturbation stability, U-Net/MedSAM masks). Also [EVORA](https://github.com/febinrenu/EVORA), a second team hackathon build: plain-English questions over many camera feeds, answered with the camera, the time and an annotated clip (YOLOE, ByteTrack, SigLIP, OSNet re-ID, Ollama). I wrote its project plan and bootstrapped the codebase: module contracts, mocks, contract tests and the team workflow.
 - **Agents & LLMs** — an [AI research agent](https://github.com/AdwaithSaji/ai-research-agent) that plans, searches, verifies and cites every claim against real retrieved sources (FastAPI + React); a [RAG e-commerce assistant](https://github.com/AdwaithSaji/gpt4_exp1) with intent routing, FAQ search and review sentiment; and a [learning recommender](https://github.com/AdwaithSaji/Exp4-Personalized-Recommendation-System) that ranks courses with embeddings plus an LLM and refines them from feedback.
-- **Services & full-stack** — [Spring MVC and Spring Boot apps](https://github.com/AdwaithSaji/JavaFullStack_exp10) with Hibernate/JPA on PostgreSQL, and a [student results backend](https://github.com/AdwaithSaji/students-result-management) on Express and MongoDB.
-- **Infrastructure & DevOps** — the [Sree Saaj platform](https://github.com/AdwaithSaji/sree-saaj-devops-): six microservices behind a JWT gateway, with Terraform, Ansible and Kubernetes configs and Prometheus/Grafana monitoring; plus a [CI pipeline](https://github.com/AdwaithSaji/python-ci-docker-lab) that tests, builds and pushes a Docker image.
+- **Services & full-stack** — [Spring MVC and Spring Boot apps](https://github.com/AdwaithSaji/JavaFullStack_exp10) with Hibernate/JPA on PostgreSQL, and a [student results backend](https://github.com/AdwaithSaji/students-result-management) on Express and MongoDB. Also two private business apps in React and TypeScript: a fleet manager and a quotation PDF maker.
+- **Infrastructure & DevOps** — the [Sree Saaj platform](https://github.com/AdwaithSaji/sree-saaj-devops-): six microservices behind a JWT gateway, with Terraform (Azure), Ansible and Kubernetes configs and Prometheus/Grafana monitoring; plus a [CI pipeline](https://github.com/AdwaithSaji/python-ci-docker-lab) that tests, builds and pushes a Docker image.
 
 Open to research and engineering roles in AI systems, backend and infrastructure.
 
@@ -24,15 +24,38 @@ Open to research and engineering roles in AI systems, backend and infrastructure
 ### `01` &nbsp;Selected work
 
 <p align="center">
-  <a href="https://github.com/AdwaithSaji/FogAi"><img src="assets/card-fogai.svg" width="400" alt="FogAI — hybrid rule and risk-scoring engine that keeps safety-critical IIoT decisions on the fog node and keeps working through cloud outages. About 75% of decisions handled locally; about 3 ms locally vs 120 ms via cloud in simulation. Python, NumPy, edge AI, IEEE paper."></a>
+  <a href="https://github.com/AdwaithSaji/FogAi"><img src="assets/card-fogai.svg" width="400" alt="FogAI — hybrid rule and risk-scoring engine that keeps safety-critical IIoT decisions on the fog node and keeps working through cloud outages. About 80% of decisions handled locally; about 3 ms locally vs 120 ms via cloud in simulation. Python, NumPy, edge AI, IEEE paper."></a>
+  <img src="assets/card-fogai-journal.svg" width="400" alt="FogAI Journal, private repository — pre-registered, sealed-holdout evaluation of learned fog and cloud task placement. Journal extension of the FogAI paper; manuscript in preparation. Python, scikit-learn, NumPy, SciPy.">
+</p>
+
+<p align="center">
   <a href="https://github.com/AdwaithSaji/ai-research-agent"><img src="assets/card-research-agent.svg" width="400" alt="AI Research Agent — bounded plan, search, verify, synthesize pipeline. Citations are assigned in code and quotes are checked against retrieved pages. FastAPI, Pydantic, React with TypeScript, Docker."></a>
+  <a href="https://github.com/AdwaithSaji/sree-saaj-devops-"><img src="assets/card-sree-saaj-devops.svg" width="400" alt="Sree Saaj DevOps — microservices platform for an events business: a JWT gateway and six FastAPI services, with Terraform, CI to Azure Container Registry and Kubernetes on Azure. Docker, Terraform, Kubernetes, Ansible, Azure."></a>
+</p>
+
+<p align="center">
+  <img src="assets/card-saaj-garage.svg" width="400" alt="SAAJ Garage, private repository — fleet manager for a family transport business: vehicles, document-expiry reminders, service and expense history, with private file storage. React, TypeScript, Supabase, Tailwind.">
+  <img src="assets/card-saaj.svg" width="400" alt="Saaj, private repository — mobile-first quotation maker for an events and catering business that builds a multi-page A4 PDF on the device, with nothing uploaded. React, TypeScript, react-pdf, Vite.">
+</p>
+
+<p align="center">
+  <a href="https://github.com/AdwaithSaji/JavaFullStack-WIPRO"><img src="assets/card-java-wipro.svg" width="400" alt="JavaFullStack-WIPRO, in progress — Java exercises by experiment: console programs on arrays, strings and sorting, and a command-line employee-salary mini project. Core Java only so far. Java 16, Eclipse."></a>
+</p>
+
+<p align="center"><sub>Cards marked <b>PRIVATE</b> are private repositories: they are shown here but not linked.</sub></p>
+
+<br>
+
+### `02` &nbsp;Team Research & Hackathon Projects
+
+<p align="center">
   <a href="https://github.com/febinrenu/EVORA"><img src="assets/card-evora.svg" width="400" alt="EVORA, team project — ask plain-English questions of many cameras and get back the camera, the time and a clip with the object circled. I planned and bootstrapped it. Detect, track, re-identify, retrieve, answer. YOLOE, ByteTrack, SigLIP, OSNet, Ollama."></a>
   <a href="https://github.com/febinrenu/PARALLAX"><img src="assets/card-parallax.svg" width="400" alt="Parallax, team project — multimodal medical second opinion where every finding must survive a chain of checks before a doctor sees it. My part: out-of-distribution routing and verification — deletion test, eight-way stability, MedSAM masks. PyTorch, FastAPI, MedSAM, MedGemma."></a>
 </p>
 
 <br>
 
-### `02` &nbsp;Research & publications
+### `03` &nbsp;Research & publications
 
 - `2026` &nbsp;**FogAI: A Lightweight Hybrid Decision Engine for Low-Latency Safety-Critical Processing in Industrial IoT Fog Nodes**<br>
   **Adwaith Sajikumar**, G. Naveen Sundhar<br>
@@ -48,7 +71,7 @@ Open to research and engineering roles in AI systems, backend and infrastructure
 
 <br>
 
-### `03` &nbsp;Stack
+### `04` &nbsp;Stack
 
 | Area | What I use it for |
 | :-- | :-- |
@@ -61,7 +84,7 @@ Open to research and engineering roles in AI systems, backend and infrastructure
 
 <br>
 
-### `04` &nbsp;Activity
+### `05` &nbsp;Activity
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdwaithSaji/AdwaithSaji/output/telemetry.svg" width="100%" alt="Signal trace: weekly GitHub contributions over the last 12 months, regenerated daily by GitHub Actions.">

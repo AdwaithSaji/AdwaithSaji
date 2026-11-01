@@ -16,9 +16,10 @@
   <rect x=".5" y=".5" width="399" height="223" rx="12" fill="url(#g)"/>
   <circle cx="28" cy="28" r="7" fill="#3fe0ee" opacity=".12" class="led"/>
   <circle cx="28" cy="28" r="3.5" fill="#3fe0ee"/>
-  <text x="42" y="32" font-size="10.5" fill="#5b6878" letter-spacing=".14em" class="m">NODE 04 · MEDICAL AI</text>
+  <text x="42" y="32" font-size="10.5" fill="#5b6878" letter-spacing=".14em" class="m">NODE 09 · MEDICAL AI</text>
   <text x="376" y="32" font-size="11" fill="#5b6878" text-anchor="end" class="m">/febinrenu/PARALLAX</text>
   <text x="24" y="70" font-size="22" font-weight="600" fill="#e8edf2" class="s">Parallax</text>
+  <path d="M264.0 66H362.0" stroke="#3fe0ee" stroke-opacity=".35" stroke-width="1.5"/><rect x="251.0" y="59" width="14" height="14" rx="3.5" fill="#0c1117" stroke="#3fe0ee" stroke-width="1.4"/><path d="M254.5 66.3l2.5 2.6 4.5-5.2" fill="none" stroke="#3fe0ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="285.7" y="59" width="14" height="14" rx="3.5" fill="#0c1117" stroke="#3fe0ee" stroke-width="1.4"/><path d="M289.2 66.3l2.5 2.6 4.5-5.2" fill="none" stroke="#3fe0ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="320.3" y="59" width="14" height="14" rx="3.5" fill="#0c1117" stroke="#3fe0ee" stroke-width="1.4"/><path d="M323.8 66.3l2.5 2.6 4.5-5.2" fill="none" stroke="#3fe0ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="355.0" y="59" width="14" height="14" rx="3.5" fill="#3fe0ee" stroke="#3fe0ee" stroke-width="1.4"/><path d="M358.5 66.3l2.5 2.6 4.5-5.2" fill="none" stroke="#07090c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="24" y="98" font-size="13.5" fill="#8b97a5" class="s">Multimodal medical second opinion: every finding</text><text x="24" y="118" font-size="13.5" fill="#8b97a5" class="s">must survive a chain of checks before a doctor</text><text x="24" y="138" font-size="13.5" fill="#8b97a5" class="s">sees it. My part: OOD routing and verification.</text>
   <text x="24" y="168" font-size="11.5" fill="#3fe0ee" class="m">deletion test · 8-way stability · MedSAM masks</text>
   <path d="M24 176.5H376" stroke="#141b23"/>
